@@ -16,7 +16,7 @@ div.Opis {
 
 div.Kontakt {
 	position: fixed; bottom: 0px;	
-	left: 50%;
+	left: 100%;
  
   transform: translate(-50%, -50%);
   margin: 0 auto;
@@ -29,7 +29,7 @@ div.Kontakt {
 div.Tytul {
 
 	margin: 0;
-	background: white;
+	background: LightCoral;
 	text-align: center;
 	box-shadow: inset 0 0 10px black;
 	text-shadow:0 0 6px red;
