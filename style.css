@@ -17,7 +17,7 @@ div.Opis {
 
 div.Kontakt {
 	position: fixed; bottom: 0px;	
-	left: 100%;
+	left: 50%;
  
   transform: translate(-50%, -50%);
   margin: 0 auto;
