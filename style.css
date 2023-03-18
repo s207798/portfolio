@@ -12,7 +12,7 @@ div.Opis {
 	background: LightSeaGreen;
 	text-align: center;
 	font-weight: bold;
-	box-shadow: inset 0 0 10px black;
+	
 }
 
 div.Kontakt {
@@ -24,7 +24,7 @@ div.Kontakt {
 	margin: 0;
 	background: BlanchedAlmond;
 	text-align: center;
-	box-shadow: inset 0 0 10px black;
+	
 
 }
 div.Tytul {
@@ -32,12 +32,12 @@ div.Tytul {
 	margin: 0;
 	background: LightCoral;
 	text-align: center;
-	box-shadow: inset 0 0 10px black;	
+		
 }
 nav ul{
     background: white;
     height: 50px;
-	box-shadow: inset 0 0 10px black;
+	
 }
 
 li{
