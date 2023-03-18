@@ -2,6 +2,7 @@ body {
 	background: PaleVioletRed;
 	background-position: center;	
 	background-attachment: fixed;
+	background-image: url("https://kottke.org/plus/misc/images/lorem-ipsum-generator-custom-placeholder-text.jpg");
 	background-size: 50%;
 	background-repeat: no-repeat;
 	
