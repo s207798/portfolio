@@ -1,5 +1,5 @@
 body {
-	background: black;
+	background: PaleVioletRed;
 	background-position: center;
 	background-image: url(tlo.jpg);
 	background-attachment: fixed;
@@ -9,7 +9,7 @@ body {
 }	
 div.Opis {
 	margin: 0;
-	background: white;
+	background: LightSeaGreen;
 	text-align: center;
 	font-weight: bold;
 	box-shadow: inset 0 0 10px black;
