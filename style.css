@@ -111,3 +111,10 @@ margin: 20px;
 background: ;
 text-align: left;
 }
+
+div.Kontakt 
+{
+position: fixed; bottom: 10px;	
+left: 10px;
+}
+
