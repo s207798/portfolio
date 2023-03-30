@@ -1,8 +1,9 @@
 body {
-	background: PaleVioletRed;
+	background: #2F4F4F;
 	background-position: center;	
 	background-attachment: fixed;
 	background-image: url("https://kottke.org/plus/misc/images/lorem-ipsum-generator-custom-placeholder-text.jpg");
+	
 	background-size: 50%;
 	background-repeat: no-repeat;
 	
@@ -74,7 +75,7 @@ a:hover, a:focus{
   text-decoration:none;
   position:relative;
   z-index: 1;
-  color: #ff5252;
+  color: #8B0000;
   text-transform:uppercase;
 }
 .menu li:hover a{
