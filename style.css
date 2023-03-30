@@ -8,18 +8,8 @@ body {
 	background-repeat: no-repeat;
 	
 }	
-/*div.Opis {
-	margin: 0;
-	background: LightSeaGreen;
-	text-align: center;
-	font-weight: bold;
-	
-}
+/*
 
-div.Kontakt {
-	position: fixed; bottom: 0px;	
-	left: 50%;
- 
   transform: translate(-50%, -50%);
   margin: 0 auto;
 	margin: 0;
@@ -27,37 +17,7 @@ div.Kontakt {
 	text-align: center;
 	
 
-}
-div.Tytul {
-
-	margin: 0;
-	background: LightCoral;
-	text-align: center;
-		
-}
-nav ul{
-    background: white;
-    height: 50px;
-	
-}
-
-li{
-    float: left;
-    width: 25%;
-    text-align: center;
-    list-style-position: inside;
-    color: black;
-    padding: 15px 0;
-}
-
-a{
-    text-decoration: none;
-    color: black;
-}
-
-a:hover, a:focus{
-    color: blue;
-}*/
+*/
 
 .menu{
   padding: 0px;
@@ -100,22 +60,22 @@ a:hover, a:focus{
   width: 100%;
 }
 
-p1	
-{
-font-weight: bold;
-}
-
 div.Tytul 
 {
-margin: 20px;
+margin: 100px;
 background: ;
 text-align: left;
+font-weight: bold;
 }
 
 div.Kontakt 
 {
-position: fixed; bottom: 10px;	
-left: 10px;
+position: fixed; /*bottom: 10px;	
+left: 10px;*/
+transform: translate(-50%, -50%);
+margin: 0 auto;
+margin: 0;
+background: BlanchedAlmond;
 }
 	
 div.Opis 
