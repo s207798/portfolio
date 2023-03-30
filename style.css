@@ -1,35 +1,27 @@
-body {
-	background: #FFE4C4;
-	background-position: center;	
-	background-attachment: fixed;
-	background-image: url();
-	
-	background-size: 50%;
-	background-repeat: no-repeat;
-	
+body 
+{
+background: #FFE4C4;
+background-position: center;	
+background-attachment: fixed;
+background-image: url();
+background-size: 50%;
+background-repeat: no-repeat;	
 }	
-/*
 
-  transform: translate(-50%, -50%);
-  margin: 0 auto;
-	margin: 0;
-	background: BlanchedAlmond;
-	text-align: center;
-	
-
-*/
-
-.menu{
+.menu
+{
   padding: 0px;
   margin:0px;
   position:relative;
 }
-.menu li{
+.menu li
+{
   float:left;
   list-style:none;
   margin:0; 
 }
-.menu li a{
+.menu li a
+{
   padding: 20px 15px;
   display: inline-block;
   text-decoration:none;
@@ -38,25 +30,30 @@ body {
   color: #8B0000;
   text-transform:uppercase;
 }
-.menu li:hover a{
+.menu li:hover a
+{
     background: #333;
     color: #fff;
 }
-.menu li ul{
+.menu li ul
+{
    margin: 0;
    padding: 0;
    position: absolute;
    z-index: 100;
   display:none;
 }
-.menu li:hover ul{
+.menu li:hover ul
+{
   display:block;
 }
-.menu li ul li{
+.menu li ul li
+{
   display:block;
   width: 100%;
 }
-.menu li ul li a{
+.menu li ul li a
+{
   width: 100%;
 }
 
@@ -85,5 +82,8 @@ background: LightSeaGreen;
 text-align: center;
 font-weight: bold;
 }
+
+
+
 
 
