@@ -117,4 +117,13 @@ div.Kontakt
 position: fixed; bottom: 10px;	
 left: 10px;
 }
+	
+div.Opis 
+{
+margin: 0;
+background: LightSeaGreen;
+text-align: center;
+font-weight: bold;
+}
+
 
