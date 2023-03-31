@@ -10,7 +10,8 @@ const currentPlayerTurn = () => `It's ${currentPlayer}'s turn`;
 
 statusDisplay.innerHTML = currentPlayerTurn();
 
-const winningConditions = [
+const winningConditions = 
+[
     [0, 1, 2],
     [3, 4, 5],
     [6, 7, 8],
@@ -21,7 +22,8 @@ const winningConditions = [
     [2, 4, 6]
 ];
 
-function handleCellPlayed(clickedCell, clickedCellIndex) {
+function handleCellPlayed(clickedCell, clickedCellIndex) 
+{
     gameState[clickedCellIndex] = currentPlayer;
     clickedCell.innerHTML = currentPlayer;
 }
