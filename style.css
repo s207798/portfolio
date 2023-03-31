@@ -13,7 +13,7 @@ background-repeat: no-repeat;
 {
   padding: 0px;
   margin:0px;
-  position: center;
+  text-align: center;
 	  /*relative;*/
 }
 .menu li
