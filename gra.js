@@ -4,9 +4,9 @@ let gameActive = true;
 let currentPlayer = "X";
 let gameState = ["", "", "", "", "", "", "", "", ""];
 
-const winningMessage = () => `Player ${currentPlayer} has won!`;
-const drawMessage = () => `Game ended in a draw!`;
-const currentPlayerTurn = () => `It's ${currentPlayer}'s turn`;
+const winningMessage = () => `Gracz ${currentPlayer} wygrał!`;
+const drawMessage = () => `Remis!`;
+const currentPlayerTurn = () => `Kolej gracza ${currentPlayer}`;
 
 statusDisplay.innerHTML = currentPlayerTurn();
 
@@ -28,34 +28,40 @@ function handleCellPlayed(clickedCell, clickedCellIndex)
     clickedCell.innerHTML = currentPlayer;
 }
 
-function handlePlayerChange() {
+function handlePlayerChange() 
+{
     currentPlayer = currentPlayer === "X" ? "O" : "X";
     statusDisplay.innerHTML = currentPlayerTurn();
 }
 
-function handleResultValidation() {
+function handleResultValidation() 
+{
     let roundWon = false;
-    for(let i = 0; i <= 7; i++) {
+    for(let i = 0; i <= 7; i++) 
+    {
         const winCondition = winningConditions[i];
         const a = gameState[winCondition[0]];
         const b = gameState[winCondition[1]];
         const c = gameState[winCondition[2]];
         if(a === '' || b === '' || c === '')
             continue;
-        if(a === b && b === c) {
+        if(a === b && b === c) 
+        {
             roundWon = true;
             break
         }
     }
 
-    if(roundWon) {
+    if(roundWon) 
+    {
         statusDisplay.innerHTML = winningMessage();
         gameActive = false;
         return;
     }
 
     const roundDraw = !gameState.includes("");
-    if(roundDraw) {
+    if(roundDraw) 
+    {
         statusDisplay.innerHTML = drawMessage();
         gameActive = false;
         return;
