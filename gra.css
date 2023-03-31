@@ -4,7 +4,6 @@ font-family: "Arial", sans-serif;
 background: #FFE4C4;
 background-position: center;	
 background-attachment: fixed;
-background-image: url();
 background-size: 50%;
 background-repeat: no-repeat;	
 }
@@ -73,8 +72,8 @@ background-repeat: no-repeat;
 
 .game--title 
 {
-  font-size: 70px;
-  color: #d7a62f;
+  font-size: 40px;
+  color: black;
   margin: 10px auto;
   text-align: center;
 }
@@ -92,8 +91,8 @@ background-repeat: no-repeat;
 
 .game--status 
 {
-  font-size: 35px;
-  color: #d7a62f;
+  font-size: 25px;
+  color: black;
   margin: 20px auto;
   text-align: center;
 }
