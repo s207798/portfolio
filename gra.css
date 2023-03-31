@@ -9,6 +9,56 @@ background-size: 50%;
 background-repeat: no-repeat;	
 }
 
+.menu
+{
+  padding: 0px;
+  margin:0px;
+  text-align: center;
+	  /*relative;*/
+}
+.menu li
+{
+  float:left;
+  list-style:none;
+  margin:0; 
+}
+.menu li a
+{
+  padding: 20px 15px;
+  display: inline-block;
+  text-decoration:none;
+  position:relative;
+  z-index: 1;
+  color: #8B0000;
+  text-transform:uppercase;
+}
+ .menu li:hover a
+{
+  background: #333;
+  color: #fff;
+}
+ .menu li ul
+{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  z-index: 100;
+  isplay:none;
+}
+ .menu li:hover ul
+{
+  display:block;
+}
+ .menu li ul li
+{
+ display:block;
+ width: 100%;
+}
+ .menu li ul li a
+{
+  width: 100%;
+}
+
 .cell 
 {
   font-family: "Times New Roman", cursive;
@@ -59,3 +109,7 @@ background-repeat: no-repeat;
   border: 2px solid #d86c23;
   text-align: center;
 }
+
+
+
+
