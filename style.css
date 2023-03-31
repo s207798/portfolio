@@ -59,7 +59,7 @@ background-repeat: no-repeat;
 
 div.Tytul 
 {
-margin: 100px;
+margin: 10px;
 background: ;
 text-align: left;
 font-weight: bold;
@@ -67,11 +67,12 @@ font-weight: bold;
 
 div.Kontakt 
 {
-position: fixed; /*bottom: 10px;	
-left: 10px;*/
-transform: translate(-50%, -50%);
+position: fixed;
+bottom: 10px;	
+left: 10px;
+/*transform: translate(-50%, -50%);
 margin: 0 auto;
-margin: 0;
+margin: 0;*/
 background: BlanchedAlmond;
 }
 	
